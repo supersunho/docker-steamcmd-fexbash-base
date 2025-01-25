@@ -25,7 +25,8 @@ RUN apt update && apt-get install -y \
     libgcc-12-dev-i386-cross  \
     libgcc-12-dev-armhf-cross \
     nasm \
-    python3-clang \
+    python3-clang 
+RUN apt-get install -y \
     libstdc++-12-dev-amd64-cross \
     libstdc++-12-dev-arm64-cross \
     libstdc++-12-dev-i386-cross \
