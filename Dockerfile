@@ -49,7 +49,7 @@ RUN if [ "$TARGETPLATFORM" = "linux/arm64" ]; then \
         apt-get install -y \
         gcc-aarch64-linux-gnu \
         g++-aarch64-linux-gnu; \
-    elif [ "$TARGETPLATFORM" = "linux/armv7" ]; then \
+    elif [ "$TARGETPLATFORM" = "linux/arm/v7" ]; then \
         apt-get install -y \
         gcc-arm-linux-gnueabihf \
         g++-arm-linux-gnueabihf; \
